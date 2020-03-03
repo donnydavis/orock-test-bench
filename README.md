@@ -12,3 +12,10 @@ How to get the graph outputs
 fio_plot -i /home/cloud-user/benchmark-output/ -T "OrockCloud Random Read Benchmark" -s "Donny Davis" -L -t iops -r randread
 fio_plot -i /home/cloud-user/benchmark-output/ -T "OrockCloud Random Read Benchmark" -s "Donny Davis" -L -t iops -r randwrite
 ```
+
+fio-plot and fio 3.14 were used to create the IOPS benchmark data
+https://github.com/louwrentius/fio-plot
+
+### Object Storage Benchmarks
+
+Warp was used to create the object store benchmark data
